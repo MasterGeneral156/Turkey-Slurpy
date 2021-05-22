@@ -27,4 +27,37 @@ module TurkeySlurpy
 		BadCold 		= true,
 		GoodHot 		= true,
 	}
+	item Slurpy
+	{
+		HungerChange 		= -110,
+		Weight 		= 3.0,
+		Type 		= Food,
+		IsCookable 		= FALSE,
+		DangerousUncooked 		= FALSE,
+		DaysTotallyRotten 		= 2,
+		MinutesToBurn 		= 15,
+		MinutesToCook 		= 5,
+		DisplayName 		= Turkey Slurpy,
+		Icon 		= Slurpy,
+		DaysFresh 		= 3,
+		FoodType 		= Meat,
+		Carbohydrates 		= 0,
+		Proteins 		= 21.41,
+		Calories 		= 400,
+		BadInMicrowave 		= TRUE,
+		BadCold 		= FALSE,
+		GoodHot 		= FALSE,
+		ThirstChange 		= -20,
+	}
+	recipe slurpy_recipe
+	{
+		Mugl,
+		Icecream,
+		Slurpy,
+		Result 		: Slurpy,
+		Time 		: 50,
+		SkillRequired 		: Cooking=2,
+		Category 		: Cooking,
+		OnGiveXP 		: Recipe.OnGiveXP.Cooking25,
+	}
 }

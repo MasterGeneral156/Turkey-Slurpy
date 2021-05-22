@@ -39,6 +39,7 @@ local distributionTable =
 			items = 
 			{
 				"TurkeySlurpy.Turkey",2,
+				"TurkeySlurpy.Slurpy",1,
 			},
 		},
 		dishescabinet = 
@@ -141,6 +142,7 @@ local distributionTable =
 		{
 			items = 
 			{
+				"TurkeySlurpy.Slurpy",1,
 			},
 		},
 		medicine = 
@@ -173,6 +175,7 @@ local distributionTable =
 			{
 				"TurkeySlurpy.Turkey",3,
 				"TurkeySlurpy.Turkey",3,
+				"TurkeySlurpy.Slurpy",1,
 			},
 		},
 		vendingsnack = 
@@ -191,6 +194,7 @@ local distributionTable =
 		{
 			items = 
 			{
+				"TurkeySlurpy.Slurpy",1,
 			},
 		},
 		officedrawers = 
