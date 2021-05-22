@@ -52,13 +52,12 @@ module TurkeySlurpy
 	recipe Create Turkey Slurpy
 	{
 		Mugl,
-		Icecream,
+		IcecreamMelted,
 		Turkey,
 		Result 		: Slurpy,
 		Time 		: 80,
-		SkillRequired 		: Cooking=2,
 		Category 		: Cooking,
 		OnGiveXP 		: Recipe.OnGiveXP.Cooking25,
-		Tooltip 		: Create a tasty and uh, nutrious treat.,
+		Tooltip 		: Create a tasty and nutrious treat.,
 	}
 }
