@@ -1,0 +1,30 @@
+module TurkeySlurpy
+{
+	imports
+	{
+		Base,
+	}
+	item Turkey
+	{
+		HungerChange 		= -90,
+		Weight 		= 3.0,
+		Type 		= Food,
+		IsCookable 		= TRUE,
+		DangerousUncooked 		= TRUE,
+		DaysTotallyRotten 		= 7,
+		MinutesToBurn 		= 100,
+		MinutesToCook 		= 80,
+		DisplayName 		= Turkey,
+		Icon 		= Turkey,
+		DaysFresh 		= 3,
+		EvolvedRecipe 		= Stew:20;Stir fry Griddle Pan:20;Stir fry:20;Burger:20;Roasted Vegetables:20;PastaPot:20;PastaPan:20;RicePot:20;RicePan:20,
+		FoodType 		= Meat,
+		Carbohydrates 		= 0,
+		Proteins 		= 21.41,
+		Lipids 		= 11.52,
+		Calories 		= 175,
+		BadInMicrowave 		= TRUE,
+		BadCold 		= true,
+		GoodHot 		= true,
+	}
+}
