@@ -54,6 +54,7 @@ module TurkeySlurpy
 		ReplaceOnUse 		= Mugl,
 		StaticModel 		= Mug,
 		EatType 		= Mug,
+		UnhappyChange 		= 30,
 	}
 	recipe Create Turkey Slurpy
 	{
