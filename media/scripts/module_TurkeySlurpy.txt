@@ -24,8 +24,8 @@ module TurkeySlurpy
 		Lipids 		= 11.52,
 		Calories 		= 175,
 		BadInMicrowave 		= TRUE,
-		BadCold 		= true,
-		GoodHot 		= true,
+		BadCold 		= TRUE,
+		GoodHot 		= TRUE,
 	}
 	item Slurpy
 	{
@@ -48,6 +48,12 @@ module TurkeySlurpy
 		BadCold 		= FALSE,
 		GoodHot 		= FALSE,
 		ThirstChange 		= -20,
+		AlwaysWelcomeGift 		= TRUE,
+		CustomContextMenu 		= Drink,
+		CustomEatSound 		= DrinkingFromBottle,
+		ReplaceOnUse 		= Mugl,
+		StaticModel 		= Mug,
+		EatType 		= Mug,
 	}
 	recipe Create Turkey Slurpy
 	{
@@ -58,6 +64,6 @@ module TurkeySlurpy
 		Time 		: 80,
 		Category 		: Cooking,
 		OnGiveXP 		: Recipe.OnGiveXP.Cooking25,
-		Tooltip 		: Create a tasty and nutrious treat.,
+		Tooltip 		: This is definitely edible.,
 	}
 }
