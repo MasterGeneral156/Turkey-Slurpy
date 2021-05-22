@@ -49,15 +49,16 @@ module TurkeySlurpy
 		GoodHot 		= FALSE,
 		ThirstChange 		= -20,
 	}
-	recipe slurpy_recipe
+	recipe Create Turkey Slurpy
 	{
 		Mugl,
 		Icecream,
-		Slurpy,
+		Turkey,
 		Result 		: Slurpy,
-		Time 		: 50,
+		Time 		: 80,
 		SkillRequired 		: Cooking=2,
 		Category 		: Cooking,
 		OnGiveXP 		: Recipe.OnGiveXP.Cooking25,
+		Tooltip 		: Create a tasty and uh, nutrious treat.,
 	}
 }
